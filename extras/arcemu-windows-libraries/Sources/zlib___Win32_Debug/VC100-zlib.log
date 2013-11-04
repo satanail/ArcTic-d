@@ -1,0 +1,45 @@
+﻿Build started 11/4/2013 5:13:20 PM.
+Project "C:\arctic-almost-done\extras\arcemu-windows-libraries\Sources\VC100-zlib.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file ".\zlib___Win32_Debug\zlib.lastbuildstate".
+InitializeBuildStatus:
+  Creating ".\zlib___Win32_Debug\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob2 /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\zlib___Win32_Debug\\" /Fd".\zlib___Win32_Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt zlib\adler32.c zlib\compress.c zlib\crc32.c zlib\deflate.c zlib\example.c zlib\gzio.c zlib\infback.c zlib\inffast.c zlib\inflate.c zlib\inftrees.c zlib\trees.c zlib\uncompr.c zlib\zutil.c
+  zutil.c
+  uncompr.c
+  trees.c
+  inftrees.c
+  inflate.c
+  inffast.c
+  infback.c
+  gzio.c
+  example.c
+  deflate.c
+  crc32.c
+  compress.c
+  adler32.c
+  Generating Code...
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\VC\lib\zlib_debug_win32.lib" /NOLOGO .\zlib___Win32_Debug\adler32.obj
+  .\zlib___Win32_Debug\compress.obj
+  .\zlib___Win32_Debug\crc32.obj
+  .\zlib___Win32_Debug\deflate.obj
+  .\zlib___Win32_Debug\example.obj
+  .\zlib___Win32_Debug\gzio.obj
+  .\zlib___Win32_Debug\infback.obj
+  .\zlib___Win32_Debug\inffast.obj
+  .\zlib___Win32_Debug\inflate.obj
+  .\zlib___Win32_Debug\inftrees.obj
+  .\zlib___Win32_Debug\trees.obj
+  .\zlib___Win32_Debug\uncompr.obj
+  .\zlib___Win32_Debug\zutil.obj
+  VC100-zlib.vcxproj -> C:\arctic-almost-done\extras\arcemu-windows-libraries\Sources\..\VC\lib\zlib_debug_win32.lib
+FinalizeBuildStatus:
+  Deleting file ".\zlib___Win32_Debug\zlib.unsuccessfulbuild".
+  Touching ".\zlib___Win32_Debug\zlib.lastbuildstate".
+Done Building Project "C:\arctic-almost-done\extras\arcemu-windows-libraries\Sources\VC100-zlib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.32
